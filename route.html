@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Google Locator</title> 
+
+	<link rel="stylesheet" href="css/mystyle.css" />
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" type="text/css" href="http://dev.jtsage.com/cdn/simpledialog/latest/jquery.mobile.simpledialog.min.css" /> 
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script> 
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	<script type="text/javascript" src="http://dev.jtsage.com/cdn/simpledialog/latest/jquery.mobile.simpledialog.min.js"></script>
+	<script type="text/javascript">
+	</script>
+</head> 
+
+<body>
+<!-- Start of Location Route Page -->
+<div data-role="page" id="route">
+
+	<div data-role="header">
+	    <a data-role="button" data-inline="true" data-rel="back" data-transition="fade"
+        href="#location01" data-icon="back" data-iconpos="left" class="ui-btn-left">
+            Back
+        </a>
+		<h1>Plan My Route</h1>
+
+	</div><!-- /header -->
+
+	<div data-role="content">	
+        <div>
+	      <img src="images/Kroger.png" style="width:150px;height:116px;float:left;clear:both;">	
+		   <p style="font-size:10pt;">
+		   <b style="color:red">Powerade, SmartWater, Vitamin Water, Coke Zero</b></br>
+		   1715 Howell Mill Rd NW, Atlanta, GA, 30318</br>
+		   
+		   <a style="color:black;background:#fff; border:1px;width:300px">
+		   Tel:&nbsp; 404-474-1234
+		   </a></br>
+		   Drive:&nbsp; 5 min &nbsp;&nbsp; Walk: &nbsp;39 min	
+           <br/>
+           <b> TIME TO REDEEM:	 3 h 23 m 5 s LEFT</br>		   
+		   </p>
+		</div> 
+		
+		<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=1+Coca+Cola+Plaza,+Atlanta,+GA&amp;daddr=Kroger,+1715+Howell+Mill+Rd+NW,+Atlanta,+GA&amp;geocode=FftOAwIdEjP4-inLx8wViAT1iDGDbh_vdASUgg%3BFSbJAwIdC-_3-iGnN6ACZSEAiSkvKb7tVAT1iDGnN6ACZSEAiQ&amp;aq=0&amp;oq=Kro&amp;sll=33.787665,-84.401815&amp;sspn=0.047865,0.034761&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=33.787637,-84.401779&amp;spn=0.024967,0.036478&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=1+Coca+Cola+Plaza,+Atlanta,+GA&amp;daddr=Kroger,+1715+Howell+Mill+Rd+NW,+Atlanta,+GA&amp;geocode=FftOAwIdEjP4-inLx8wViAT1iDGDbh_vdASUgg%3BFSbJAwIdC-_3-iGnN6ACZSEAiSkvKb7tVAT1iDGnN6ACZSEAiQ&amp;aq=0&amp;oq=Kro&amp;sll=33.787665,-84.401815&amp;sspn=0.047865,0.034761&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=33.787637,-84.401779&amp;spn=0.024967,0.036478&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+		
+	    <input data-theme="b" value="Start" type="submit">
+
+    		<a data-role="button" data-inline="true" data-rel="back" data-transition="fade"
+			href="#">
+				Share on Facebook
+			</a>
+			<a data-role="button" data-inline="true" data-rel="back" data-transition="fade"
+			href="#" style="float:right;">
+				Tweet
+			</a>
+	
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">		
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li><a href="#" data-icon="plus" >Challenges</a></li>
+				<li><a href="#status" data-icon="gear" data-rel="dialog" >Status</a></li>
+				<li><a href="#map" class="ui-btn-active ui-state-persist" data-icon="grid">Map</a></li>
+				<li><a href="#friends" data-icon="star">Friends</a></li>
+
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+
+</html>
